@@ -56,7 +56,6 @@ logo = '\n\x1b[1;92m              \n\x1b[1;92m                      \n\x1b[1;96m
 
 def reg():
     os.system('clear')
-    print ''
     print '\x1b[1;37mTake The Approval For Free'
     print ''
     time.sleep(1)
