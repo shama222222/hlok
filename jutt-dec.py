@@ -53,7 +53,6 @@ line = requests.get(word_site)
 line1 = line.content.splitlines()
 line2 = random.choice(line1)
 logo = '\n\x1b[1;92m              \n\x1b[1;92m                      \n\x1b[1;96m                        \n\x1b[1;92m     {} {}  {} {}{}{} {}{}{} \n\x1b[1;97m     {} {}  {}   {}     {} \n\x1b[1;93m     {} {}  {}   {}     {}  \n\x1b[1;96m     {} {}  {}   {}     {} \n\x1b[1;94m  {}{}   {}{}    {}     {}  \n\x1b[1;93m                      \n\x1b[1;92m         Jutt Badshah Brand~                       \n\x1b[1;91m-----------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author : Jutt Badshah x ?????\n\x1b[1;97m\xe2\x9e\xa3 Github : https://github.com/juttbadshah6969\n\x1b[1;97m\xe2\x9e\xa3 WP NO  : +923100209977\n\x1b[1;91m-----------------------------------------------\n    \x1b[1;33mUse flight (airplane) mode before use\n\x1b[1;91m-----------------------------------------------'
-print word2 + line2
 
 def reg():
     os.system('clear')
